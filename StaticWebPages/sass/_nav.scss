@@ -1,0 +1,26 @@
+.navbar-brand {
+  position: absolute;
+  top: 0px;
+  margin-left: 10rem;
+  img {
+    width: 70%;
+    height: 70%;
+  }
+}
+.navbar-collapse {
+  margin-left: 115px;
+  flex-flow: row wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-right: 10rem;
+  li {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
