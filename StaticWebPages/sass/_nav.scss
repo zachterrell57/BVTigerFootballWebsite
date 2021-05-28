@@ -1,24 +1,43 @@
+.navbar {
+  background-color: #141414 !important;
+  padding: 0;
+}
+
 .navbar-brand {
   position: absolute;
   top: 0px;
-  margin-left: 10rem;
+  margin-left: 5rem;
   img {
     width: 70%;
     height: 70%;
+    padding-top: 0.5rem;
   }
 }
 .navbar-collapse {
   margin-left: 115px;
   flex-flow: row wrap;
+  font-family: "Montserrat", sans-serif !important;
+  #topRow {
+    font-size: 36px;
+    a {
+      color: white !important;
+    }
+  }
+  #bottomRow {
+    border-top: 1.5px solid #caa94a;
+    font-size: 18px;
+    a {
+      color: #caa94a;
+    }
+  }
 }
 
 .flex-row {
   flex-direction: row;
-  width: 100%;
 }
 
 .navbar-nav {
-  margin-right: 10rem;
+  margin-right: 5rem;
   li {
     padding-left: 3rem;
     padding-right: 3rem;
