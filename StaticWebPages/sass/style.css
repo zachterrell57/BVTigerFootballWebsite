@@ -58,8 +58,10 @@
 }
 
 .splashPage {
-  min-height: 85vh;
+  position: relative;
   background-image: url("../img/SplashPage.jpg");
+  min-height: 100vh;
+  background-color: gray;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
