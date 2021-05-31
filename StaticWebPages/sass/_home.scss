@@ -1,12 +1,20 @@
-$page-height: calc(100% - 130px); //page height - nav height
-
 .hero {
   height: $page-height;
   width: 100vw;
   position: relative;
   background-image: url("../img/SplashPage.jpg");
-  background-color: #141414 !important; //image does not take up entire screen
+  background-color: $dark-bk-color !important; //image does not take up entire screen
   background-size: contain; // contains image in original dimension
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.schedule-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: $light-bk-color;
+}
+
+.schedule {
+  background-color: red;
 }
