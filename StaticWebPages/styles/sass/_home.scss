@@ -2,7 +2,7 @@
   height: $page-height;
   width: 100vw;
   position: relative;
-  background-image: url("../img/SplashPage.jpg");
+  background-image: url("/img/SplashPage.jpg");
   background-color: $dark-bk-color !important; //image does not take up entire screen
   background-size: contain; // contains image in original dimension
   background-position: center;
