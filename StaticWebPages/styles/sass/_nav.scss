@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #141414 !important;
+  background-color: $dark-bk !important;
   padding: 0;
 }
 
@@ -29,10 +29,10 @@
     }
   }
   #bottomRow {
-    border-top: 1.5px solid #caa94a;
+    border-top: 1.5px solid $gold;
     font-size: 18px;
     a {
-      color: #caa94a;
+      color: $gold;
     }
   }
 }

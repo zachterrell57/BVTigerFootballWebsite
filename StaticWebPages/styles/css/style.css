@@ -1,3 +1,119 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: #141414 !important;
+  padding: 0;
+}
+
+.navbar-custom {
+  height: 130px !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 0px;
+  margin-left: 5rem;
+}
+
+.navbar-brand img {
+  width: 70%;
+  height: 70%;
+  padding-top: 0.5rem;
+}
+
+.navbar-collapse {
+  margin-left: 115px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar-collapse #topRow {
+  font-size: 36px;
+}
+
+.navbar-collapse #topRow a {
+  color: white !important;
+}
+
+.navbar-collapse #bottomRow {
+  border-top: 1.5px solid #caa94a;
+  font-size: 18px;
+}
+
+.navbar-collapse #bottomRow a {
+  color: #caa94a;
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar-nav {
+  margin-right: 5rem;
+}
+
+.navbar-nav li {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.hero {
+  height: calc(100% - 130px);
+  width: 100vw;
+  position: relative;
+  background-image: url("/img/SplashPage.jpg");
+  background-color: #141414 !important;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.schedule-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f7f7;
+}
+
+.schedule-page .schedule-label {
+  margin-top: 20px;
+  border-bottom: 2px solid #caa94a;
+}
+
+.schedule-page .schedule-label h2, .schedule-page .schedule-label .h2 {
+  padding-left: 0ch;
+}
+
+.schedule-page .twitter-label {
+  margin-top: 20px;
+  border-bottom: 2px solid #caa94a;
+}
+
+.schedule-page .twitter-label h2, .schedule-page .twitter-label .h2 {
+  padding-left: 0ch;
+}
+
+.schedule-page .twitter {
+  padding-top: 10px;
+}
+
+.schedule-page .news-label {
+  margin-top: 20px;
+  border-bottom: 2px solid #caa94a;
+}
+
+.schedule-page .news-label h2, .schedule-page .news-label .h2 {
+  padding-left: 0ch;
+}
+
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11463,94 +11579,5 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
-}
-
-body {
-  height: 100vh;
-  width: 100vw;
-}
-
-.navbar {
-  background-color: #141414 !important;
-  padding: 0;
-}
-
-.navbar-custom {
-  height: 130px !important;
-}
-
-.navbar-brand {
-  position: absolute;
-  top: 0px;
-  margin-left: 5rem;
-}
-
-.navbar-brand img {
-  width: 70%;
-  height: 70%;
-  padding-top: 0.5rem;
-}
-
-.navbar-collapse {
-  margin-left: 115px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  font-family: "Montserrat", sans-serif !important;
-}
-
-.navbar-collapse #topRow {
-  font-size: 36px;
-}
-
-.navbar-collapse #topRow a {
-  color: white !important;
-}
-
-.navbar-collapse #bottomRow {
-  border-top: 1.5px solid #caa94a;
-  font-size: 18px;
-}
-
-.navbar-collapse #bottomRow a {
-  color: #caa94a;
-}
-
-.flex-row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.navbar-nav {
-  margin-right: 5rem;
-}
-
-.navbar-nav li {
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
-
-.hero {
-  height: calc(100% - 130px);
-  width: 100vw;
-  position: relative;
-  background-image: url("/img/SplashPage.jpg");
-  background-color: #141414 !important;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.schedule-page {
-  height: 100vh;
-  width: 100vw;
-  background-color: #f8f7f7;
-}
-
-.schedule {
-  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */
