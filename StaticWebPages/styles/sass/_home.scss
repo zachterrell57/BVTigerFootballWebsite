@@ -14,27 +14,33 @@
   width: 100vw;
   background-color: $light-bk;
   .schedule-label {
-    margin-top: 20px;
+    margin-top: 10px;
     h2 {
       padding-left: 0ch;
     }
     border-bottom: 2px solid $gold;
   }
   .twitter-label {
-    margin-top: 20px;
+    margin-top: 10px;
     h2 {
       padding-left: 0ch;
     }
-    border-bottom: 2px solid $gold;
   }
   .twitter {
     padding-top: 10px;
   }
   .news-label {
-    margin-top: 20px;
+    margin-top: 10px;
     h2 {
       padding-left: 0ch;
     }
-    border-bottom: 2px solid $gold;
+  }
+  .news {
+    padding-top: 10px;
+    background-color: gray;
+  }
+  .label-separator {
+    width: 50%;
+    border-top: 2px solid $gold;
   }
 }

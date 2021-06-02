@@ -85,7 +85,7 @@ body {
 }
 
 .schedule-page .schedule-label {
-  margin-top: 20px;
+  margin-top: 10px;
   border-bottom: 2px solid #caa94a;
 }
 
@@ -94,8 +94,7 @@ body {
 }
 
 .schedule-page .twitter-label {
-  margin-top: 20px;
-  border-bottom: 2px solid #caa94a;
+  margin-top: 10px;
 }
 
 .schedule-page .twitter-label h2, .schedule-page .twitter-label .h2 {
@@ -107,12 +106,21 @@ body {
 }
 
 .schedule-page .news-label {
-  margin-top: 20px;
-  border-bottom: 2px solid #caa94a;
+  margin-top: 10px;
 }
 
 .schedule-page .news-label h2, .schedule-page .news-label .h2 {
   padding-left: 0ch;
+}
+
+.schedule-page .news {
+  padding-top: 10px;
+  background-color: gray;
+}
+
+.schedule-page .label-separator {
+  width: 50%;
+  border-top: 2px solid #caa94a;
 }
 
 /*!
