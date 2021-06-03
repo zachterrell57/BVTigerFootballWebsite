@@ -84,43 +84,60 @@ body {
   background-color: #f8f7f7;
 }
 
-.schedule-page .schedule-label {
+.label-separator {
+  width: 50%;
+  border-top: 2px solid #caa94a;
+}
+
+.schedule-label {
   margin-top: 10px;
   border-bottom: 2px solid #caa94a;
 }
 
-.schedule-page .schedule-label h2, .schedule-page .schedule-label .h2 {
+.schedule-label h2, .schedule-label .h2 {
   padding-left: 0ch;
 }
 
-.schedule-page .twitter-label {
+.twitter-label {
   margin-top: 10px;
 }
 
-.schedule-page .twitter-label h2, .schedule-page .twitter-label .h2 {
+.twitter-label h2, .twitter-label .h2 {
   padding-left: 0ch;
 }
 
-.schedule-page .twitter {
-  padding-top: 10px;
+.twitter {
+  margin-top: 10px !important;
+  width: 80% !important;
 }
 
-.schedule-page .news-label {
-  margin-top: 10px;
+.twitter .twitter-timeline {
+  height: 100% !important;
+  width: 100% !important;
 }
 
-.schedule-page .news-label h2, .schedule-page .news-label .h2 {
+.news-label h2, .news-label .h2 {
   padding-left: 0ch;
 }
 
-.schedule-page .news {
-  padding-top: 10px;
+.news {
+  margin-top: 10px !important;
+  width: 80% !important;
   background-color: gray;
 }
 
-.schedule-page .label-separator {
-  width: 50%;
-  border-top: 2px solid #caa94a;
+.news #newsCarousel {
+  height: 100%;
+}
+
+.news #newsCarousel .carousel-inner {
+  height: 100%;
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  text-align: center !important;
 }
 
 /*!
