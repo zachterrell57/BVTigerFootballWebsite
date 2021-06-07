@@ -1,7 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #f8f7f7 !important;
+}
+
 body {
-  height: 100vh;
-  width: 100vw;
   overflow-x: hidden;
+}
+
+nav {
+  z-index: 9999;
 }
 
 .navbar {
@@ -67,6 +80,12 @@ body {
   padding-right: 3vw;
 }
 
+.landing-page {
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+}
+
 .hero {
   height: calc(100% - 130px);
   width: 100vw;
@@ -82,6 +101,36 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #f8f7f7;
+}
+
+#schedule {
+  margin-top: 10px !important;
+  height: 70vh;
+}
+
+#schedule th {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+#schedule td {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+#schedule tbody {
+  -webkit-box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#schedule .border-col {
+  border-right: 2px solid #caa94a;
 }
 
 .label-separator {
@@ -127,6 +176,7 @@ body {
 }
 
 .news #newsCarousel {
+  background-color: blue;
   height: 100%;
 }
 
@@ -138,6 +188,11 @@ body {
       -ms-flex-pack: center !important;
           justify-content: center !important;
   text-align: center !important;
+}
+
+.sponsors-page {
+  height: 100vh;
+  background-color: #f8f7f7;
 }
 
 /*!

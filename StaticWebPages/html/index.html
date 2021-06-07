@@ -73,172 +73,182 @@
       </div>
     </nav>
 
-    <div class="hero"></div>
+    <section class="landing-page">
+      <div class="hero"></div>
+    </section>
 
-    <div>
-      <div class="container schedule-page">
-        <div class="row gx-5 h-100 page-content">
-          <div class="col-lg-7 schedule-section">
-            <div class="schedule-label">
-              <h2>Schedule</h2>
-            </div>
-            <table class="table table-striped table-bordered schedule">
-              <thead>
-                <tr>
-                  <th scope="col">Opponent</th>
-                  <th scope="col">Location</th>
-                  <th scope="col">Date</th>
-                  <th scope="col">Result</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>BVNW</td>
-                  <td>Home</td>
-                  <td>9/17</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>BVN</td>
-                  <td>Home</td>
-                  <td>9/25</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>BVW</td>
-                  <td>BVDAC</td>
-                  <td>10/2</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>BVSW</td>
-                  <td>BVDAC</td>
-                  <td>10/16</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>SJA</td>
-                  <td>Home</td>
-                  <td>10/22</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>BVW</td>
-                  <td>Home</td>
-                  <td>10/29</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>BVNW</td>
-                  <td>BVDAC</td>
-                  <td>11/6</td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
+    <section class="container schedule-page">
+      <div class="row gx-5 h-100 page-content">
+        <div class="col-lg-7 schedule-section">
+          <div class="schedule-label">
+            <h2>Schedule</h2>
           </div>
-          <div class="col-lg-5">
-            <!-- Twitter Section -->
-            <div class="twitter-section h-50 w-100">
-              <div class="twitter-label">
-                <h2>Twitter</h2>
-              </div>
-              <div class="label-separator"></div>
-              <div class="twitter h-75">
-                <a
-                  class="twitter-timeline"
-                  data-width="10"
-                  data-height="10"
-                  data-chrome="noheader nofooter noborders"
-                  href="https://twitter.com/BVTouchdownclub?ref_src=twsrc%5Etfw"
-                  >Tweets by BVTouchdownclub</a
-                >
-                <script
-                  async
-                  src="https://platform.twitter.com/widgets.js"
-                  charset="utf-8"
-                ></script>
-              </div>
+          <table class="table table-borderless table-striped" id="schedule">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Opponent</th>
+                <th scope="col">Location</th>
+                <th scope="col">Date</th>
+                <th scope="col">Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-col">BVNW</td>
+                <td class="border-col">Blue Valley Northwest</td>
+                <td class="border-col">Home</td>
+                <td class="border-col">9/17</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="border-col">BVNW</td>
+                <td class="border-col">Blue Valley North</td>
+                <td class="border-col">Home</td>
+                <td class="border-col">9/25</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="border-col">BVNW</td>
+                <td class="border-col">Blue Valley West</td>
+                <td class="border-col">BVDAC</td>
+                <td class="border-col">10/2</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="border-col">BVNW</td>
+                <td class="border-col">Blue Valley Southwest</td>
+                <td class="border-col">BVDAC</td>
+                <td class="border-col">10/16</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="border-col">BVNW</td>
+                <td class="border-col">St. James</td>
+                <td class="border-col">Home</td>
+                <td class="border-col">10/22</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="border-col">BVNW</td>
+                <td class="border-col">Blue Valley West</td>
+                <td class="border-col">Home</td>
+                <td class="border-col">10/29</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="border-col">BVNW</td>
+                <td class="border-col">Blue Valley Northwest</td>
+                <td class="border-col">BVDAC</td>
+                <td class="border-col">11/6</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-5">
+          <!-- Twitter Section -->
+          <div class="twitter-section h-50 w-100">
+            <div class="twitter-label">
+              <h2>Twitter</h2>
             </div>
-            <!-- News Section -->
-            <div class="news-section h-50 w-100">
-              <div class="news-label">
-                <h2>News</h2>
-              </div>
-              <div class="label-separator"></div>
-              <div class="news h-75">
-                <!-- News Carousel -->
-                <div
-                  id="newsCarousel"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                >
-                  <!-- Page indicators -->
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#newsCarousel"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#newsCarousel"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#newsCarousel"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
+            <div class="label-separator"></div>
+            <div class="twitter h-75">
+              <a
+                class="twitter-timeline"
+                data-width="10"
+                data-height="10"
+                data-chrome="noheader nofooter noborders"
+                href="https://twitter.com/BVTouchdownclub?ref_src=twsrc%5Etfw"
+                >Tweets by BVTouchdownclub</a
+              >
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+          <!-- News Section -->
+          <div class="news-section h-50 w-100">
+            <div class="news-label">
+              <h2>News</h2>
+            </div>
+            <div class="label-separator"></div>
+            <div class="news h-75">
+              <!-- News Carousel -->
+              <div
+                id="newsCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <!-- Page indicators -->
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#newsCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#newsCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#newsCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <!-- Items -->
+                  <div class="carousel-item active">
+                    <h1 class="d-block w-100">Slide 1</h1>
                   </div>
-                  <div class="carousel-inner">
-                    <!-- Items -->
-                    <div class="carousel-item active">
-                      <h1 class="d-block w-100">Slide 1</h1>
-                    </div>
-                    <div class="carousel-item">
-                      <h1 class="d-block w-100">Slide 2</h1>
-                    </div>
-                    <div class="carousel-item">
-                      <h1 class="d-block w-100">Slide 3</h1>
-                    </div>
-                    <!-- Side Buttons -->
-                    <button
-                      class="carousel-control-prev"
-                      type="button"
-                      data-bs-target="#newsCarousel"
-                      data-bs-slide="prev"
-                    >
-                      <span
-                        class="carousel-control-prev-icon"
-                        aria-hidden="true"
-                      ></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                      class="carousel-control-next"
-                      type="button"
-                      data-bs-target="#newsCarousel"
-                      data-bs-slide="next"
-                    >
-                      <span
-                        class="carousel-control-next-icon"
-                        aria-hidden="true"
-                      ></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+                  <div class="carousel-item">
+                    <h1 class="d-block w-100">Slide 2</h1>
                   </div>
+                  <div class="carousel-item">
+                    <h1 class="d-block w-100">Slide 3</h1>
+                  </div>
+                  <!-- Side Buttons -->
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#newsCarousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#newsCarousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section class="container sponsors-page"></section>
   </body>
 </html>

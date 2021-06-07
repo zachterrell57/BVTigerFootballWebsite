@@ -1,9 +1,15 @@
+.landing-page {
+  height: 100% - 130px;
+  width: 100vh;
+  z-index: 1;
+}
+
 .hero {
-  height: $page-height;
+  height: 100%;
   width: 100vw;
   position: relative;
   background-image: url("/img/SplashPage.jpg");
-  background-color: $dark-bk !important; //image does not take up entire screen
+  background-color: $dark-bg !important; //image does not take up entire screen
   background-size: contain; // contains image in original dimension
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +18,28 @@
 .schedule-page {
   height: 100vh;
   width: 100vw;
-  background-color: $light-bk;
+  background-color: $light-bg;
+}
+
+#schedule {
+  margin-top: 10px !important;
+  height: 70vh;
+  th {
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+  }
+  td {
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle !important;
+  }
+  tbody {
+    box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .border-col {
+    border-right: 2px solid $gold;
+  }
 }
 
 .label-separator {
@@ -55,6 +82,7 @@
   width: 80% !important;
   background-color: gray;
   #newsCarousel {
+    background-color: blue;
     height: 100%;
     .carousel-inner {
       height: 100%;
@@ -63,4 +91,9 @@
       text-align: center !important;
     }
   }
+}
+
+.sponsors-page {
+  height: 100vh;
+  background-color: $light-bg;
 }

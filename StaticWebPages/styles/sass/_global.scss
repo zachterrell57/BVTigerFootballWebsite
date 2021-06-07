@@ -1,11 +1,19 @@
 //GLOBAL VARIABLES
 $page-height: calc(100% - 130px); //page height - nav height
-$light-bk: #f8f7f7;
-$dark-bk: #141414;
+$light-bg: #f8f7f7;
+$dark-bg: #141414;
 $gold: #caa94a;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $light-bg !important;
+}
+
 body {
-  height: 100vh;
-  width: 100vw;
   overflow-x: hidden;
 }
