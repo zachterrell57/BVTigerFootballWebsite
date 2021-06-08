@@ -1,0 +1,54 @@
+nav {
+  z-index: 9999;
+}
+
+.navbar {
+  background-color: $dark-bg !important;
+  padding: 0;
+}
+
+.navbar-custom {
+  height: 130px !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 0px;
+  margin-left: 5rem;
+  img {
+    width: 70%;
+    height: 70%;
+    padding-top: 0.5rem;
+  }
+}
+
+.navbar-collapse {
+  margin-left: 115px;
+  flex-flow: row wrap;
+  font-family: "Montserrat", sans-serif !important;
+  #topRow {
+    font-size: 36px;
+    a {
+      color: white !important;
+    }
+  }
+  #bottomRow {
+    border-top: 1.5px solid $gold;
+    font-size: 18px;
+    a {
+      color: $gold;
+    }
+  }
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.navbar-nav {
+  margin-right: 5rem;
+  li {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+}
