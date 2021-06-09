@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../../../StaticWebPages/styles/sass/app.scss"
-    ],
-    "names": [],
-    "file": "app.css"
-}
