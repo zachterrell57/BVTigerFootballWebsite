@@ -1,6 +1,6 @@
 $total-arrows: 3;
-$arrow-line-length: 30px;
-$arrow-line-width: 4px;
+$arrow-line-length: 25px;
+$arrow-line-width: 3px;
 
 // arrow animtion + choose direction
 @mixin arrow-transitions($rot: 0deg) {
@@ -8,13 +8,13 @@ $arrow-line-width: 4px;
 }
 
 .landing-page {
-  height: 100vh - 130px;
-  width: 100vh;
+  height: 100vh;
+  width: 100vw;
   z-index: 1;
 }
 
 .hero {
-  height: 100%;
+  height: $page-height;
   width: 100vw;
   position: relative;
   background-image: url("../../img/SplashPage.jpg");
