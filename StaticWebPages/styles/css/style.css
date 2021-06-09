@@ -142,8 +142,8 @@ nav {
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   background: #fff;
-  width: 4px;
-  height: 30px;
+  width: 3px;
+  height: 25px;
   border-radius: 10px;
   -webkit-transform: translate(-50%, -50%) rotateZ(-45deg);
           transform: translate(-50%, -50%) rotateZ(-45deg);
