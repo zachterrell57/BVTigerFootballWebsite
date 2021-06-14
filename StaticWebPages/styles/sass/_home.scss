@@ -2,7 +2,7 @@ $total-arrows: 3;
 $arrow-line-length: 25px;
 $arrow-line-width: 3px;
 
-// arrow animtion + choose direction
+// arrow animation + choose direction
 @mixin arrow-transitions($rot: 0deg) {
   transform: translate(-50%, -50%) rotateZ($rot);
 }
@@ -23,7 +23,7 @@ $arrow-line-width: 3px;
   background-position: center;
   background-repeat: no-repeat;
 
-  // arrows
+  // Scroll Arrows
   .arrow-container {
     display: block;
     width: 100px;
@@ -157,4 +157,11 @@ $arrow-line-width: 3px;
 .sponsors-page {
   height: 100vh;
   background-color: $light-bg;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#page-header {
+  padding-top: 10vh;
 }
