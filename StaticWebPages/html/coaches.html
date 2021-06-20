@@ -89,5 +89,18 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      // Navbar hide on scroll
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.querySelector("nav").style.top = "0";
+        } else {
+          document.querySelector("nav").style.top = "-23vh";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
   </body>
 </html>
