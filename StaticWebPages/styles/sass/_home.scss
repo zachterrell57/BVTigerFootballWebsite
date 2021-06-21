@@ -7,6 +7,10 @@ $arrow-line-width: 3px;
   transform: translate(-50%, -50%) rotateZ($rot);
 }
 
+body {
+  background-color: $light-bg !important;
+}
+
 .landing-page {
   height: 100vh;
   width: 100vw;
@@ -154,16 +158,33 @@ $arrow-line-width: 3px;
   }
 }
 
+.separator-graphic {
+  height: 35vh;
+  background-color: $dark-bg;
+  .first-column {
+    height: 35vh;
+    background-color: $gold;
+  }
+  .second-column {
+    height: 35vh;
+    background-color: ;
+  }
+  .third-column {
+    height: 35vh;
+    background-color: $dark-bg;
+  }
+}
+
 .sponsors-page {
   height: 100vh;
   background-color: $light-bg;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   align-items: center;
 
   #page-header {
-    padding-top: 10vh;
-    font-family: "Montserrat", sans-serif !important;
+    padding-top: 2vh;
+    //font-family: "Montserrat", sans-serif !important;
     text-align: center;
     h1 {
       font-size: 48px;
@@ -173,26 +194,19 @@ $arrow-line-width: 3px;
     }
   }
 
-  .sponsors-card-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    margin-top: 2vh;
+  .sponsor-card {
+    padding: 50px;
+    margin: 2.5vh 2.5vw;
+    max-height: 35vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    .sponsor-card {
-      padding: 50px;
-      margin: 2.5vh 2.5vw;
-      max-height: 35vh;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-      border-radius: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }
