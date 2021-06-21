@@ -270,22 +270,22 @@ body {
   text-align: center !important;
 }
 
-.seperator-graphic {
-  height: 35vh;
-  background-color: grey;
-}
-
-.seperator-graphic .first-column {
+.separator-graphic {
   height: 35vh;
   background-color: #141414;
 }
 
-.seperator-graphic .second-column {
+.separator-graphic .first-column {
   height: 35vh;
   background-color: #caa94a;
 }
 
-.seperator-graphic .third-column {
+.separator-graphic .second-column {
+  height: 35vh;
+  background-color: #caa94a;
+}
+
+.separator-graphic .third-column {
   height: 35vh;
   background-color: #141414;
 }
@@ -293,13 +293,6 @@ body {
 .sponsors-page {
   height: 100vh;
   background-color: #f8f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -318,16 +311,7 @@ body {
   font-size: 28px;
 }
 
-.sponsors-page .sponsors-card-grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
-  padding-top: 2vh;
-}
-
-.sponsors-page .sponsors-card-grid .sponsor-card {
+.sponsors-page .sponsor-card {
   padding: 50px;
   margin: 2.5vh 2.5vw;
   max-height: 35vh;
@@ -345,7 +329,7 @@ body {
           justify-content: center;
 }
 
-.sponsors-page .sponsors-card-grid .sponsor-card img {
+.sponsors-page .sponsor-card img {
   width: 100%;
   height: auto;
 }
