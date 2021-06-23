@@ -342,6 +342,12 @@ body {
   height: auto;
 }
 
+footer {
+  background-color: #484848;
+  position: absolute;
+  bottom: 30vh;
+}
+
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
