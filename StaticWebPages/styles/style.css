@@ -285,7 +285,7 @@ body {
 
 .separator-graphic .first-column {
   height: 35vh;
-  background-color: #caa94a;
+  background-color: #141414;
 }
 
 .separator-graphic .second-column {
@@ -343,19 +343,49 @@ body {
 }
 
 footer {
-  background-color: #484848;
-  position: absolute;
-  bottom: 25vh;
+  height: 40vh;
+  background-color: #141414;
 }
 
-/* @import "../../bootstrap/scss/functions";
-@import "../../bootstrap/scss/mixins/breakpoints";
-@import "../../bootstrap/scss/variables"; */
-/* @import "../../bootstrap/scss/grid";
-@import "../../bootstrap/scss/nav";
-@import "../../bootstrap/scss/navbar";
-@import "../../bootstrap/scss/carousel";
-@import "../../bootstrap/scss/containers";
-@import "../../bootstrap/scss/tables";
-@import "../../bootstrap/scss/"; */
+footer .container {
+  height: 40vh;
+}
+
+footer img {
+  height: 35%;
+  width: 35%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none !important;
+}
+
+footer p {
+  color: white;
+  padding-top: 1vh;
+}
+
+footer p :hover {
+  color: white;
+}
+
+footer .icons {
+  padding-top: 2vh;
+}
+
+footer #instagram-button svg {
+  height: 50%;
+  width: 50%;
+}
+
+footer #twitter-button svg {
+  height: 50%;
+  width: 50%;
+}
+
+footer #facebook-button svg {
+  height: 50%;
+  width: 50%;
+}
 /*# sourceMappingURL=style.css.map */

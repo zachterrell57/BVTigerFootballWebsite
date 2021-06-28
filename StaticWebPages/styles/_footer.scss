@@ -1,5 +1,51 @@
 footer {
-  background-color: $gray-bg;
-  position: absolute;
-  bottom: 25vh;
+  height: 40vh;
+  background-color: $dark-bg;
+
+  .container {
+    height: 40vh;
+  }
+
+  img {
+    height: 35%;
+    width: 35%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none !important; //was underlined
+  }
+
+  p {
+    color: white;
+    padding-top: 1vh;
+    :hover {
+      color: white; //changed from blue
+    }
+  }
+
+  .icons {
+    padding-top: 2vh;
+  }
+
+  #instagram-button {
+    svg {
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  #twitter-button {
+    svg {
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  #facebook-button {
+    svg {
+      height: 50%;
+      width: 50%;
+    }
+  }
 }

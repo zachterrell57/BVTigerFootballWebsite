@@ -169,7 +169,7 @@ body {
   background-color: $dark-bg;
   .first-column {
     height: 35vh;
-    background-color: $gold;
+    background-color: $dark-bg;
   }
   .second-column {
     height: 35vh;
@@ -184,13 +184,10 @@ body {
 .sponsors-page {
   height: 100vh;
   background-color: $light-bg;
-  // display: flex;
-  // flex-direction: column;
   align-items: center;
 
   #page-header {
     padding-top: 2vh;
-    //font-family: "Montserrat", sans-serif !important;
     text-align: center;
     h1 {
       font-size: 48px;
