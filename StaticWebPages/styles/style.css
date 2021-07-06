@@ -390,4 +390,10 @@ footer #facebook-button svg {
   height: 50%;
   width: 50%;
 }
+
+.schedule-body {
+  height: calc(100vh - 130px);
+  width: 100vw;
+  position: relative;
+}
 /*# sourceMappingURL=style.css.map */
