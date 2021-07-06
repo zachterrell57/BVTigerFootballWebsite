@@ -102,7 +102,8 @@ body {
     text-align: center;
     vertical-align: middle !important;
     .high-school-logo {
-      width: 3vw;
+      max-width: 55%;
+      max-height: 90%;
     }
   }
   tbody {
@@ -110,6 +111,7 @@ body {
   }
   .border-col {
     border-right: 2px solid $gold;
+    width: 20%;
   }
 }
 

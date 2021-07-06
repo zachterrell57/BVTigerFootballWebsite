@@ -209,7 +209,8 @@ body {
 }
 
 #schedule td .high-school-logo {
-  width: 3vw;
+  max-width: 55%;
+  max-height: 90%;
 }
 
 #schedule tbody {
@@ -219,6 +220,7 @@ body {
 
 #schedule .border-col {
   border-right: 2px solid #caa94a;
+  width: 20%;
 }
 
 .label-separator {

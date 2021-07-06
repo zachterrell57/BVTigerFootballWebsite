@@ -6,7 +6,8 @@
         "_global.scss",
         "_nav.scss",
         "_home.scss",
-        "_footer.scss"
+        "_footer.scss",
+        "_schedule.scss"
     ],
     "names": [],
     "file": "style.css"
