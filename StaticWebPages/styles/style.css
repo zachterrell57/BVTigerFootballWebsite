@@ -31,13 +31,13 @@ nav {
 .navbar-brand {
   position: absolute;
   top: 0px;
-  margin-left: 5rem;
+  margin-left: 3rem;
 }
 
 .navbar-brand img {
   width: 70%;
   height: 70%;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 
 .navbar-collapse {
@@ -325,8 +325,8 @@ body {
   padding: 50px;
   margin: 2.5vh 2.5vw;
   max-height: 35vh;
-  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -395,5 +395,234 @@ footer #facebook-button svg {
   height: calc(100vh - 130px);
   width: 100vw;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.category-buttons {
+  height: 100%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 5%;
+}
+
+.category-buttons button {
+  border-radius: 30px;
+  background-color: #141414;
+  color: #caa94a;
+  height: 11%;
+  font-size: 28px;
+}
+
+.category-buttons button:hover {
+  color: white;
+}
+
+.calendar-section {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-body {
+  height: calc(100vh - 130px);
+  width: 100vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 3%;
+}
+
+.event-card {
+  width: 25%;
+  height: 40%;
+  margin: 2%;
+}
+
+.event-card .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.event-card .title h1 {
+  width: 65%;
+  border-bottom: solid 4px #caa94a;
+  line-height: 41px;
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+.event-card .title button {
+  width: 30%;
+  height: 80%;
+  background-color: #caa94a;
+  border-radius: 30px;
+  margin-bottom: 2%;
+}
+
+.coaches-body {
+  min-height: calc(100vh - 130px);
+  width: 100vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3% 10%;
+}
+
+.coaches-body h1 {
+  border-bottom: solid 4px #caa94a;
+  width: 12%;
+  font-size: 28px;
+}
+
+.card-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.coach-card {
+  height: 50vh;
+  width: 22%;
+  margin: 2% 7% 2% 0;
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.coach-card h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.coach-card h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.coach-card img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.coach-card button {
+  border: solid 2px #caa94a;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 6%;
+  width: 45%;
+}
+
+.coach-card button:hover {
+  background-color: #caa94a;
+  color: white;
+}
+
+.modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-body img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.modal-body .bio {
+  width: 60%;
+}
+
+.modal-content {
+  height: 100% !important;
+}
+
+.modal-dialog {
+  width: 100% !important;
+}
+
+.info {
+  max-width: 65%;
+}
+
+.info h2 {
+  font-size: 24px;
+}
+
+.info h3 {
+  font-size: 20px;
+}
+
+.roster-body {
+  height: calc(100vh - 130px);
+  width: 100vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
