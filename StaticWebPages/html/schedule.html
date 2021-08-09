@@ -12,18 +12,6 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css"
-      integrity="sha512-KXkS7cFeWpYwcoXxyfOumLyRGXMp7BTMTjwrgjMg0+hls4thG2JGzRgQtRfnAuKTn2KWTDZX4UdPg+xTs8k80Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/locale/af.min.js"
-      integrity="sha512-lnYINW0FnmQ7QKM2C5b94J7Ev9xp80zvVPs5qY2dImqaUVAyPiGUtZdSks9UsKixpl0G+Vee3Aps3XqOGm4LDQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fontsgoogleapis.com/css2?family=Montserrat:wght@500&display=swap"
@@ -34,7 +22,23 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <title>Home</title>
+    <!-- <link href="../node_modules/fullcalendar/main.css" rel="stylesheet" />
+    <script src="../node_modules/fullcalendar/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var calendarEl = document.getElementById("calendar");
+        let calendar = new Calendar(calendarEl, {
+          plugins: [googleCalendarPlugin],
+          googleCalendarApiKey: "AIzaSyBAohaiAgDaQBuyLqc50zPMFSRBvus_VW8",
+          events: {
+            googleCalendarId: "rcody720@gmail.com",
+          },
+        });
+        calendar.render();
+        console.log(calendar);
+      });
+    </script> -->
+    <title>Schedule</title>
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-custom">
@@ -93,9 +97,22 @@
     </nav>
 
     <div class="schedule-body">
-      <div class="row">
-        <div class="col" id="buttons"></div>
-        <div class="col" id="calendar"></div>
+      <div class="category-buttons">
+        <button type="button" class="btn">Freshman</button>
+        <button type="button" class="btn">Varsity</button>
+        <button type="button" class="btn">Touchdown Club</button>
+      </div>
+      <div class="calendar-section">
+        <!--         <div id="calendar"> -->
+        <iframe
+          frameborder="0"
+          height="600"
+          scrolling="no"
+          src="https://calendar.google.com/calendar/embed?src=bluevalleyk12.org_vl17j767vdrad8lff4tkmqcqh0%40group.calendar.google.com&amp;ctz=America%2FChicago"
+          style="border: 0"
+          width="700"
+        ></iframe>
+        <!-- </div> -->
       </div>
     </div>
 
