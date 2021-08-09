@@ -12,7 +12,18 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css"
+      integrity="sha512-KXkS7cFeWpYwcoXxyfOumLyRGXMp7BTMTjwrgjMg0+hls4thG2JGzRgQtRfnAuKTn2KWTDZX4UdPg+xTs8k80Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/locale/af.min.js"
+      integrity="sha512-lnYINW0FnmQ7QKM2C5b94J7Ev9xp80zvVPs5qY2dImqaUVAyPiGUtZdSks9UsKixpl0G+Vee3Aps3XqOGm4LDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fontsgoogleapis.com/css2?family=Montserrat:wght@500&display=swap"
@@ -81,7 +92,12 @@
       </div>
     </nav>
 
-    <div class="schedule-body"></div>
+    <div class="schedule-body">
+      <div class="row">
+        <div class="col" id="buttons"></div>
+        <div class="col" id="calendar"></div>
+      </div>
+    </div>
 
     <footer>
       <div class="container">
@@ -183,6 +199,16 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      //calendar
+      document.addEventListener("DOMContentLoaded", function () {
+        var calendarEl = document.getElementById("calendar");
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: "dayGridMonth",
+        });
+        calendar.render();
+      });
+    </script>
     <script>
       // Navbar hide on scroll
       var prevScrollpos = window.pageYOffset;

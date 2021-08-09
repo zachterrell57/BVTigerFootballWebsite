@@ -396,4 +396,8 @@ footer #facebook-button svg {
   width: 100vw;
   position: relative;
 }
+
+.schedule-body #calendar {
+  height: 100%;
+}
 /*# sourceMappingURL=style.css.map */
