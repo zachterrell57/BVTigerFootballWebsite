@@ -4,10 +4,10 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 2vh;
+  margin: 3% 10%;
 
   h1 {
-    border-bottom: solid 2px $gold;
+    border-bottom: solid 4px $gold;
     width: 12%;
     font-size: 28px;
   }
@@ -16,80 +16,48 @@
 .card-section {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1vh;
 }
 
 .coach-card {
-  height: 220px;
-  width: 420px;
-  margin: 0% 7% 2% 0;
+  height: 50vh;
+  width: 22%;
+  margin: 2% 7% 2% 0;
   background-color: $dark-bg;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15%);
 
-  .coach-info {
-    padding-left: 1.5vw;
-    padding-top: 1vh;
-    flex: 1.5;
-
-    display: flex;
-    flex-direction: column;
-
-    .text {
-      flex: 2;
-
-      .name-twitter {
-        display: flex;
-        flex-direction: row;
-        h2 {
-          margin-bottom: 0;
-          font-size: 26px;
-        }
-        .coach-twitter-button {
-          display: flex;
-          align-items: center;
-          margin-left: 1vw;
-        }
-      }
-
-      h3 {
-        color: $gold;
-        font-size: 22px;
-        margin-bottom: 0;
-        font-weight: lighter;
-      }
-    }
-    .bio-button {
-      flex: 1;
-      button {
-        border: solid 2px $gold;
-        border-radius: 10px;
-        color: white;
-        background-color: $dark-bg;
-        margin-bottom: 6%;
-        width: 75%;
-      }
-    }
-
-    button:hover {
-      background-color: $gold;
-      color: white;
-    }
+  h2 {
+    text-align: center;
+    margin-bottom: 0;
   }
 
-  .coach-image {
-    flex: 1;
-    height: 100%;
-    img {
-      height: 100%;
-      width: 100%;
-      border-radius: 0px 10px 10px 0;
-      object-fit: cover;
-    }
+  h3 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  button {
+    border: solid 2px $gold;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 6%;
+    width: 45%;
+  }
+
+  button:hover {
+    background-color: $gold;
+    color: white;
   }
 }
 

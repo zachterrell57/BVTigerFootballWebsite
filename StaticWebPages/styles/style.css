@@ -35,9 +35,9 @@ nav {
 }
 
 .navbar-brand img {
-  width: 45%;
-  height: 45%;
-  padding-top: 0.5rem;
+  width: 70%;
+  height: 70%;
+  padding-top: 1rem;
 }
 
 .navbar-collapse {
@@ -505,11 +505,11 @@ footer #facebook-button svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 2vh;
+  margin: 3% 10%;
 }
 
 .coaches-body h1 {
-  border-bottom: solid 2px #caa94a;
+  border-bottom: solid 4px #caa94a;
   width: 12%;
   font-size: 28px;
 }
@@ -520,35 +520,13 @@ footer #facebook-button svg {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 1vh;
 }
 
 .coach-card {
-  height: 220px;
-  width: 420px;
-  margin: 0% 7% 2% 0;
+  height: 50vh;
+  width: 22%;
+  margin: 2% 7% 2% 0;
   background-color: #141414;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  color: white;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.coach-card .coach-info {
-  padding-left: 1.5vw;
-  padding-top: 1vh;
-  -webkit-box-flex: 1.5;
-      -ms-flex: 1.5;
-          flex: 1.5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -556,79 +534,45 @@ footer #facebook-button svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.coach-card .coach-info .text {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-}
-
-.coach-card .coach-info .text .name-twitter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.coach-card .coach-info .text .name-twitter h2 {
-  margin-bottom: 0;
-  font-size: 26px;
-}
-
-.coach-card .coach-info .text .name-twitter .coach-twitter-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 1vw;
-}
-
-.coach-card .coach-info .text h3 {
-  color: #caa94a;
-  font-size: 22px;
-  margin-bottom: 0;
-  font-weight: lighter;
-}
-
-.coach-card .coach-info .bio-button {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.coach-card .coach-info .bio-button button {
-  border: solid 2px #caa94a;
-  border-radius: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: white;
-  background-color: #141414;
-  margin-bottom: 6%;
-  width: 75%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.coach-card .coach-info button:hover {
+.coach-card h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.coach-card h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.coach-card img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.coach-card button {
+  border: solid 2px #caa94a;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 6%;
+  width: 45%;
+}
+
+.coach-card button:hover {
   background-color: #caa94a;
   color: white;
-}
-
-.coach-card .coach-image {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  height: 100%;
-}
-
-.coach-card .coach-image img {
-  height: 100%;
-  width: 100%;
-  border-radius: 0px 10px 10px 0;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .modal-body {
@@ -680,113 +624,9 @@ footer #facebook-button svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 2vh;
 }
 
-.roster-body h1 {
-  border-bottom: solid 2px #caa94a;
-  width: 12%;
-  font-size: 28px;
-}
-
-.card-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 1vh;
-}
-
-.player-card {
-  height: 150px;
-  width: 350px;
-  margin: 0% 7% 2% 0;
-  background-color: #141414;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  color: white;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.player-card .player-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  padding-left: 1.5vw;
-  padding-top: 1vh;
-}
-
-.player-card .player-info .player-text .player-name h2 {
-  font-size: 26px;
-  margin-bottom: 0;
-}
-
-.player-card .player-info .player-text h3 {
-  color: #caa94a;
-  font-size: 22px;
-  margin-bottom: 0;
-  font-weight: lighter;
-}
-
-.player-card .player-info .player-social-media {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.player-card .player-info .player-stats {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.player-card .player-info .player-stats .stat {
-  font-size: 22px;
-  padding-left: 7px;
-}
-
-.player-card .player-info .player-stats .divider {
-  border-right: solid 1px #caa94a;
-  padding: 0 7px;
-}
-
-.player-card .player-image {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  background-color: #caa94a;
-  border-radius: 0 5px 5px 0;
+.schedule-body #calendar {
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
