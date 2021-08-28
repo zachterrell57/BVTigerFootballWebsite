@@ -555,13 +555,13 @@ footer #facebook-button svg {
           flex-direction: column;
 }
 
-.coach-card .coach-info .text {
+.coach-card .coach-info .coach-text {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
 }
 
-.coach-card .coach-info .text .name-twitter {
+.coach-card .coach-info .coach-text .name-twitter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -571,12 +571,12 @@ footer #facebook-button svg {
           flex-direction: row;
 }
 
-.coach-card .coach-info .text .name-twitter h2 {
+.coach-card .coach-info .coach-text .name-twitter h2 {
   margin-bottom: 0;
   font-size: 26px;
 }
 
-.coach-card .coach-info .text .name-twitter .coach-twitter-button {
+.coach-card .coach-info .coach-text .name-twitter .coach-twitter-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,7 +586,7 @@ footer #facebook-button svg {
   margin-left: 1vw;
 }
 
-.coach-card .coach-info .text h3 {
+.coach-card .coach-info .coach-text h3 {
   color: #caa94a;
   font-size: 22px;
   margin-bottom: 0;
