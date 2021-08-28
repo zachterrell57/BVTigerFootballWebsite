@@ -13,9 +13,7 @@ nav {
 }
 
 .navbar-brand {
-  position: absolute;
-  top: 0px;
-  margin-left: 3rem;
+  margin-left: 3vw;
   img {
     width: 45%;
     height: 45%;
@@ -26,7 +24,6 @@ nav {
 .navbar-collapse {
   margin-left: 115px;
   flex-flow: row wrap;
-  font-family: "Montserrat", sans-serif !important;
   #topRow {
     font-size: 36px;
     a {
@@ -47,9 +44,9 @@ nav {
 }
 
 .navbar-nav {
-  margin-right: 5rem;
+  margin-right: 5vw;
   li {
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 }
